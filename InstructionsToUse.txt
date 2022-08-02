@@ -1,0 +1,15 @@
+C:\Users\vishwanath\source\repos
+
+Step 1 : download elasticsearch zip file and run elasticsearch.bat file in cmd (Admin)
+
+step 2: Copy paste the Json file in bin folder of ElasticSearch folder
+
+Step 3: Run curl command in new cmd ( Admin) to add the json data to elaticsearch
+using ( curl -XPOST localhost:9200/book/_bulk --data-binary @sample-data.json -H "Content-Type: application/json" )
+
+step 4: Install NEST in Visual Studio using the command install-package NEST in packet manager console
+
+step 5: Run the program using IIS Express. 
+
+Thank you.
+
